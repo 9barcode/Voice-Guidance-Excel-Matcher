@@ -22,6 +22,10 @@ Pandas 등 실무에서 사용하는 주요 기술을 적용하여 실제 업무
 | 언어 | Python 3.13 |
 | 라이브러리 | Pandas, openpyxl |
 | 배포 환경 | GitHub (Windows 기준 테스트) |
+convert_to_txt.py > language 로그를 UTF-8 형식으로 추출하기 위해 txt 파일로 우선 추출하는 과정이며 dlt viewer의 plagin 사용.
+sentence_filter_text.py > txt 파일들을 전부 모아 필요한 데이터만 추출하여 csv 파일로 parser 하는 과정.
+matching_machine.py > parser한 csv 파일과 Test 엑셀 문서와의 셀 매칭을 통해 음성안내 Test case 처리.
+
 
 ---
 
